@@ -9,7 +9,7 @@ process.stdin.on('data',function(data){
   eval(cmd);
   console.log(msg[i++]+':');
 });
-process.stdin.on('cmd',function(){
+process.stdin.on('end',function(){
   console.log(me);
 });
 
