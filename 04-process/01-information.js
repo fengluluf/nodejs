@@ -16,7 +16,7 @@ console.log('heapUsed:',process.memoryUsage().heapUsed);
 console.log('external:',process.memoryUsage().external);
 console.log(' ');
 console.log('\env:',process.env);
-console.log('host name:',process.env.HOSTNAME);
+console.log('host name:',process.env.HOSTNAME)
 
 
 
