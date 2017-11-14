@@ -2,7 +2,7 @@
 
 console.log("process id:",process.pid);
 process.stdin.resume();
-process.on('SIGNIT',function(){
+process.on('SIGINT',function(){
   console.log('you press ctrl-c,good bey');
   process.exit(0);
 })
